@@ -1,0 +1,9 @@
+def split_and_join(line):
+    a = ""
+    for i in line:
+        if i == " ":
+            a = a + "-"
+        else:
+            a += i
+    return a  
+print(split_and_join("this is a string"))
